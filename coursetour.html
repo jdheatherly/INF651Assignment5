@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <title>Crestwood Country Club::Course Tour</title>
+</head>
+
+<body class = "bg-light">
+    <div class="container-fluid">
+       <!-- start of header/nav -->
+       <header>
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+            <!-- home logo -->
+            <a class="navbar-brand mb-2" href="main.html"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                    class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z" />
+                    <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                </svg></a>
+            <!-- end home logo -->
+
+
+
+            <!-- hamburger menu button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- end hamburger button -->
+
+            <!-- items inside the collapsable navbar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!-- golf dropdown nav link -->
+
+                    <li class="nav-item dropdown main_nav_items">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Golf
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item golf_dropdown_items" href="golfabout.html">About</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item golf_dropdown_items" href="coursetour.html">Course Tour</a>
+                            <a class="dropdown-item golf_dropdown_items" href="practicefacilities.html">Practice Facilities</a>
+                            <a class="dropdown-item golf_dropdown_items" href="leagues.html">Leagues</a>
+                            <a class="dropdown-item golf_dropdown_items" href="tournaments.html">Tournaments</a>
+                            
+
+
+                        </div>
+                    </li>
+                    <!-- amenities dropdown nav link -->
+                    <li class="nav-item dropdown main_nav_items">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Amenities
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            
+                            <a class="dropdown-item amen_dropdown_item" href="dining.html">Dining</a>
+                            <a class="dropdown-item amen_dropdown_item" href="legends.html">Legends</a>
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item main_nav_items">
+                        <a class="nav-link" href="membership.html">Membership<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item main_nav_items">
+                        <a class="nav-link" href="calendar.html">Calendar</a>
+                    </li>
+
+                </ul>
+    </nav>
+</header>
+<!-- End of header/nav -->
+
+                    
+         
+        <!-- start of "main" -->
+        <div class="row d-flex">
+          <div class="col">
+             <img src="proshopgolfcourse.png" alt="" class="img-fluid">
+          </div>
+      </div>
+       
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4 text-center my-2">Course Tour</h1>
+                <hr class = "w-50">
+            </div>
+        </div>
+        <!-- Cards/course tour start here -->
+        <div class="row py-4" id = "course_tour_cards">
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                  
+                    <img class="card-img-top" src="hole1.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole1">
+                    <div class="modal fade" id="course_tour_hole1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 1</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole1.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 1 is a 391 yard par 4 that has a slight dogleg left. A good drive in the fairway sets up an early birdie opportunity. But beware of the overhanging trees on the right if its a back-left pin.</p>
+                      <button class="btn btn-dark" disabled>Hole 1</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                  <img class="card-img-top" src="hole2.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole2">
+                  <div class="modal fade" id="course_tour_hole2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">Hole 2</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img class = "img-fluid text-center" src="hole2.png" alt="">
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                   <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 2 is a 521 yard par 5 with a slight dogleg to the right. The fairway is wide, but beware of the fairway bunker on the right. Longer hitters will have no problem getting home in 2, but water does surround the left,back, and right sides of the green</p>
+                    <button class = "btn btn-dark" disabled>Hole 2</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole7.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole3">
+                    <div class="modal fade" id="course_tour_hole3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 3</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole7.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 3 is the start of a tough 2 hole stretch. Measuring at 217 yards this par 3 is all you want.Any tee shot that finds the green on this hole is no small task.</p>
+                    <button class = "btn btn-dark" disabled>Hole 3</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole9.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole4">
+                    <div class="modal fade" id="course_tour_hole4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 4</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole9.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 4 is a long, difficult par 4 measuring at 440 yards. A fairway bunker on the right side of the fairway and ob left add more trouble to this hole. Pars on 3 and 4 aren't going to hurt you.</p>
+                    <button class = "btn btn-dark" disabled>Hole 4</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole5.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole5">
+                    <div class="modal fade" id="course_tour_hole5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 5</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole5.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 5 is a 184 yard par-3 with bunkers surrounding a smaller green. A tee shot to the middle of this green is a quality golf shot. </p>
+                    <button class = "btn btn-dark" disabled>Hole 5</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole6.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole6">
+                    <div class="modal fade" id="course_tour_hole6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 6</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole6.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 6 seems like a different hole from the blue tees. Other teeboxes have a straight shot at the fairway, but a draw is required to find the fairway from the blues. If you find the fairway this 376 par 4 is another birdie opportunity.</p>
+                    <button class = "btn btn-dark" disabled>Hole 6</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole7.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole7">
+                    <div class="modal fade" id="course_tour_hole7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 7</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole7.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 7 is a straightaway par 4 measuring at 429 yards. Beware of the collection area short right, as any approach shot finding the left side of the green can easily end up in this dangerous area.</p>
+                    <button class = "btn btn-dark" disabled>Hole 7</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole8.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole8">
+                    <div class="modal fade" id="course_tour_hole8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 8</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole8.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Much like hole 8 this 534 yard par 5 requires a draw from the blue tees. A 4-tiered green awaits your approach shot, so pay close attention to the flag placement.</p>
+                    <button class = "btn btn-dark" disabled>Hole 8</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole9.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole9">
+                    <div class="modal fade" id="course_tour_hole9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 9</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole9.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 9 is a great risk/reward hole to close out the front side. A 346 yard par 4 that allows you to hit the big stick or layup short of the fairway bunkers on the right side. This green has a severe slope from back to front, you do not want to be putting from above the hole.</p>
+                    <button class = "btn btn-dark" disabled>Hole 9</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole10.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole10">
+                    <div class="modal fade" id="course_tour_hole10" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 10</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole10.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">The backside starts with a great birdie opportunity if you find the fairway. Hole 10 measures in at 349 yards and has a slight dogleg to the right. Any tee ball that doesn't find the fairway is sure to have tree trouble.</p>
+                      <button class = "btn btn-dark" disabled>Hole 10</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole8.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole11">
+                    <div class="modal fade" id="course_tour_hole11" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 11</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole8.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 11 is a beautiful 170 yard par 3. A small pond and bunkers line the left side and the green snakes around these areas. A back-left pin requires you to carry your ball over both of the hazards.</p>
+                      <button class = "btn btn-dark" disabled>Hole 11</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole6.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole12">
+                    <div class="modal fade" id="course_tour_hole" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 12</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole6.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 12 is a straightaway, 385 yard par 4. Trees creep in on both sides of the fairway, and the approach shot will be hit into one of the trickiest greens on the course.</p>
+                      <button class = "btn btn-dark" disabled>Hole 12</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole6.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole13">
+                    <div class="modal fade" id="course_tour_hole13" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 13</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole6.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">As you cross the train tracks another birdie opportunity awaits. Hole 13 is a 518 yard par 5 with a fairway bunker on the right. Long hitters can fly the bunker while others will need to play to the left of it.</p>
+                      <button class = "btn btn-dark" disabled>Hole 13</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole7.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole14">
+                    <div class="modal fade" id="course_tour_hole14" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 14</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole7.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 14 is a 165 yard par 4 with water all down the right side. If the pin is on the right side a shot to the center of the green is the smart, safe choice.</p>
+                      <button class = "btn btn-dark" disabled>Hole 14</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole2.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole15">
+                    <div class="modal fade" id="course_tour_hole15" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 15</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole2.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 15 is another long, straightaway par 4 measuring at 412 yards. Miss the fairway bunker on the right and an approach to the center of the green will set you up for a par.</p>
+                      <button class = "btn btn-dark" disabled>Hole 15</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole8.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole16">
+                    <div class="modal fade" id="course_tour_hole16" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 16</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole8.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 16 is a straightaway par 4 measuring at 373 yards. A wide landing area and relatively flat green makes this a birdie opportunity. Water does wrap around the left, back, and right sides of the green.</p>
+                      <button class = "btn btn-dark" disabled>Hole 16</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole5.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole17">
+                    <div class="modal fade" id="course_tour_hole17" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 17</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole5.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 17 is a 528 yard par 5 that doglegs slightly to the right. A deep fairway bunker on the left hand side must be avoided. Another great birdie opportunity. </p>
+                      <button class = "btn btn-dark" disabled>Hole 17</button>
+                    </div>
+                  </div>
+                  
+            </div>
+
+            <div class="col-md-4 col-lg-2 card_item">
+                <div class="card">
+                    <img class="card-img-top" src="hole6.png" alt="Card image cap" data-toggle = "modal" data-target = "#course_tour_hole18">
+                    <div class="modal fade" id="course_tour_hole18" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">Hole 18</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img class = "img-fluid text-center" src="hole6.png" alt="">
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                     <!-- Modal -->
+                    <div class="card-body">
+                      
+                      <p class="card-text">Hole 18 is one of the toughest closing holes in Kansas. Measuring at 382 yards, length isn't the issue here. A creek guards the fairway 230 yards off of the tee. Long hitters can cut the corner, but the landing area over the creek is small. Par is a great score here.</p>
+                      <button class = "btn btn-dark" disabled>Hole 18</button>
+                    </div>
+                  </div>
+                  
+            </div>
+           
+        </div>
+        </main>
+        <!-- end of main -->
+        <hr>
+        <!-- start of footer -->
+       
+        <footer>
+          <div class="row bg-light">
+              <div class="col mx-auto text-center">
+          
+         <ul id = "footer_list">
+             <li class = "footer_list_item">304 W. Crestview Ave, Pittsburg, KS 66762</li>
+             <li class = "footer_list_item">Dining: <a href="tel:6202319697">(620)-231-9697</a></li>
+             <li class = "footer_list_item">Golf Shop: <a href="tel:6202316530">(620)-231-6530</a></li>
+             <li class = "footer_list_item">
+              
+
+                 <a href="https://www.facebook.com/Crestwoodccpittks/" target = "_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+
+                
+              </li>
+         </ul>
+      </div>
+      </div>
+  </footer>
+
+
+        
+          
+    
+
+
+
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    
+    </body>
+    </html>

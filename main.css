@@ -1,0 +1,138 @@
+
+/* footer styling  */
+#footer_list{
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+
+#footer_list{
+    padding-inline-start: 0px;
+
+}
+
+#footer_list a{
+color: #5c6f42;
+}
+
+#footer_list a:hover{
+    font-weight:bold;
+}
+
+a i{
+    color:blue;
+}
+
+a i:hover{
+    color: #5c6f42
+}
+
+#phone_num{
+    text-decoration:none;
+    color: #5c6f42;
+    
+}
+
+#phone_num:hover{
+    border-bottom: 3px solid #5c6f42;
+    
+}
+
+/* end footer styling */
+
+
+body{
+    color: #212914;
+}
+
+
+
+
+hr {
+    border-bottom: 3px solid #5c6f42;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5c6f42;
+    }
+/* styling of navigation links in navbar including pseudoclasses */
+.navbar-light .navbar-nav .nav-link {
+    color: #212914;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #5c6f42;
+    
+}
+
+
+/* nav photo gallery styling */
+
+#nav_photo_gallery img{
+    
+    opacity: 0.2;
+    
+    }
+
+#nav_photo_gallery img:hover{
+   opacity: 1.0;
+   transition: 0.3s ease-in-out;
+
+}
+
+/* About Golf Page */
+/* card styling */
+
+.card_item{
+   padding-top: 10px;
+   padding-bottom: 10px; 
+}
+
+.golf_features_list{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+/* calendar css styling */
+.calendar{
+    padding-top: 40px;
+}
+
+/* Practice facilities page */
+
+.prac_facil_info{
+    text-align:center;
+    padding-top: 20px;
+}
+
+.prac_facil_info p{
+    background-color: white;
+    
+}
+
+/* dining page */
+#dining_list{
+    list-style-type: none;
+    padding-inline-start: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
